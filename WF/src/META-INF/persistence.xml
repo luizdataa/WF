@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence">
+<persistence-unit name="ModuloFinanceiro">
+<provider>org.hibernate.ejb.HibernatePersistence</provider>
+<class>com.woolsk.testes.BeanTeste</class>
+<class>com.woolsk.bean.Conta</class>
+<class>com.woolsk.bean.Saldo</class>
+<class>com.woolsk.bean.Usuario</class>
+<class>com.woolsk.bean.ActionBean</class>
+<properties>
+<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+<property name="hibernate.hbm2ddl.auto" value="update" />
+<property name="hibernate.show_sql" value="true" />
+<property name="hibernate.format_sql" value="true" />
+
+<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+<property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/woolsk" />
+<property name="javax.persistence.jdbc.user" value="root" />
+<property name="javax.persistence.jdbc.password" value="1723" />
+</properties> 
+</persistence-unit> 
+</persistence>
