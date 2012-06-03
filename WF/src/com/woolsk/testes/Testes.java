@@ -13,5 +13,6 @@ public class Testes {
 		//Object lista =  query.getSingleResult();
 		
 		String teste = "";
+		String novoTeste = "";
 	}
 }
