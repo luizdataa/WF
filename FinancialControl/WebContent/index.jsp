@@ -9,7 +9,7 @@
 </head>
 <body>
 <f:view>
-	teste
+
 </f:view>
 </body>
 </html>
