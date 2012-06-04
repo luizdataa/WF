@@ -124,3 +124,53 @@ activated,view,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.Rep
 deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768696265
 activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768703370
 executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Commit",1338768703401
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768703737
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768703877
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.SimplePush",1338768708220
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768708525
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768715297
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768715508
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768720885
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Pull",1338768723761
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768724082
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768764675
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768799309
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768812146
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.Commit",1338768812169
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768812552
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768813841
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.SimplePush",1338768817381
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768817686
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768827533
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768827939
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768830604
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768832238
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768832941
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768833566
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768841069
+executed,command,org.eclipse.egit.ui,1.3.0.201202151440-r,"org.eclipse.egit.ui.team.SimplePush",1338768844515
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768844812
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768848290
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768848415
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768851282
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768852790
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768859429
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1338768859453
+closed,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1338768859882
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1338768859992
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768861460
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768862234
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768862976
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768869591
+activated,perspective,org.eclipse.jst.j2ee.ui,1.1.503.v201201190400,"org.eclipse.jst.j2ee.J2EEPerspective",1338768870927
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1338768870982
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768872224
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768877437
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768881073
+error,log,,,"",1338768892751
+error,log,,,"Invalid project description.",1338768912718
+error,log,,,"Invalid project description.",1338768921290
+error,log,,,"Invalid project description.",1338768937641
+error,log,,,"",1338768941324
+error,log,,,"Invalid project description.",1338768958105
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1338768976155
