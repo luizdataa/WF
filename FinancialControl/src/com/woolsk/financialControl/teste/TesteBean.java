@@ -1,10 +1,11 @@
 package com.woolsk.financialControl.teste;
 
+import javax.faces.bean.ManagedBean;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@Entity
+@Entity @ManagedBean
 public class TesteBean {
 	
 	@Id	@GeneratedValue
