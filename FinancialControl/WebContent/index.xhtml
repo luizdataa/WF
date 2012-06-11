@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+	
+	<h:head>
+		<title>Controle de Finanças - Woolsk</title>
+	</h:head>
+	<h:body>
+		<h:form>
+			<h2>Controle de Finanças</h2>
+	   		<p:accordionPanel>
+	   			<p:tab title="Acesso ao Sistema">
+	   				<h:panelGrid columns="2" cellpadding="10">  
+						<p:panel header="Bem-vindo">  
+					        <p:messages id="messages" showDetail="true" autoUpdate="true"/>  
+					        <h:panelGrid columns="2" id="janelaAcesso">                     
+					            <h:outputLabel for="labelUsuario" value="Úsuario: *" />  
+					            <p:inputText id="labelUsuario" value="#{passwordBean.password5}" label="Úsuario" required="true"/>  
+					  
+					            <h:outputLabel for="labelSenha" value="Senha: *" />  
+					            <p:password id="labelSenha" value="#{passwordBean.password5}" label="Senha" required="true"/>  
+					        </h:panelGrid>  
+					        <p:commandButton id="saveButton" update="janelaAcesso" value="Acessar" />  
+				   		</p:panel>
+			        </h:panelGrid> 
+	   			</p:tab>
+	   		</p:accordionPanel>
+	   	</h:form>
+	   	<h:form>
+	   		<p:accordionPanel>
+				<p:tab title="Novo Cadastro" >  
+			        <h:panelGrid columns="2" cellpadding="10">
+			        	<p:panel header="Cadastro">
+			        		<h:panelGrid columns="2" id="janelaCadastro">
+			        			<h:outputLabel for="nome" value="Nome: "/>
+			        			<p:inputText id="nome" value="#{cadastroUsuario.usuario.nome}" label="Nome" required="true" size="30"/>
+			        			
+			        			<h:outputLabel for="usuario" value="Úsuario: "/>
+			        			<p:inputText id="usuario" value="#{cadastroUsuario.usuario.nomeUsuario}" label="Usuario" size="30"/>
+			        			
+			        			<h:outputLabel for="email" value="E-mail: "/>
+			        			<p:inputText id="email" value="#{cadastroUsuario.usuario.emailUsuario}" label="E-mail" size="30"/>
+			        			
+			        			<h:outputLabel for="senha" value="Senha: "/>
+			        			<p:password id="senha" value="#{cadastroUsuario.usuario.senha}" label="Senha" size="30"/>
+			        			
+			        			<p:commandButton id="salvarCadastro" update="janelaCadastro" value="Cadastrar" action="#{cadastroUsuario.adicionaUsuario}"/>
+			        		</h:panelGrid>
+			        	</p:panel>  
+			        </h:panelGrid>  
+	   			</p:tab> 	 	
+	   		</p:accordionPanel>
+		</h:form>
+	</h:body>
+</html>
