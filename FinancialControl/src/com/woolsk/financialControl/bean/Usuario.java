@@ -15,6 +15,7 @@ public class Usuario{
 	private String emailUsuario;
 	private String senha;
 	private boolean adminitrador;
+	private boolean online;
 	
 	public int getIdUsuario() {
 		return idUsuario;
@@ -52,4 +53,11 @@ public class Usuario{
 	public void setAdminitrador(boolean adminitrador) {
 		this.adminitrador = adminitrador;
 	}
+	public boolean isOnline() {
+		return online;
+	}
+	public void setOnline(boolean online) {
+		this.online = online;
+	}
+	
 }
