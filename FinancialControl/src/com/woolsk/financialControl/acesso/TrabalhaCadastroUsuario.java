@@ -30,9 +30,27 @@ public class TrabalhaCadastroUsuario extends Trabalha{
 			listaDados.add(usuario.getSenha());
 			if(verificaDados(listaDados)){
 				if(verificaSenha()){
-					return true;
+					if(verificaUsuario()){
+						if(verificaEmail()){							
+							return true;
+						}
+					}
 				}
 			}
+		}
+		return false;
+	}
+	
+	private boolean verificaEmail(){
+		if(consulta.getUsuarioPorEmail(usuario.getEmailUsuario()) == null){
+			return true;
+		}
+		return false;
+	}
+	
+	private boolean verificaUsuario(){
+		if(consulta.getPorNomeUsuario(usuario.getNomeUsuario()) == null){
+			return true;
 		}
 		return false;
 	}
@@ -66,5 +84,4 @@ public class TrabalhaCadastroUsuario extends Trabalha{
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
 	}
-	
 }

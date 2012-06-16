@@ -8,9 +8,10 @@ public class TrabalhaPersistencia {
 
 	private EntityManager manager;
 	
-	public TrabalhaPersistencia(){
-		EntityManagerFactory managerFactory = Persistence.createEntityManagerFactory("FinancialControl");
-		this.manager = managerFactory.createEntityManager();
+	public TrabalhaPersistencia(EntityManager manager){
+//		EntityManagerFactory managerFactory = Persistence.createEntityManagerFactory("FinancialControl");
+//		this.manager = managerFactory.createEntityManager();
+		this.manager = manager;
 	}
 	
 	public boolean trabalhaAuditoria(Object object) {
