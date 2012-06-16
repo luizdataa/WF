@@ -5,8 +5,8 @@ import java.util.List;
 
 import javax.faces.bean.ManagedBean;
 
-
 import com.woolsk.financialControl.bean.Usuario;
+import com.woolsk.financialControl.seguranca.Digester;
 import com.woolsk.financialControl.trabalha.Trabalha;
 
 @ManagedBean(name="cadastroUsuario")
@@ -29,7 +29,9 @@ public class TrabalhaCadastroUsuario extends Trabalha{
 			listaDados.add(usuario.getNomeUsuario());
 			listaDados.add(usuario.getSenha());
 			if(verificaDados(listaDados)){
-				return true;
+				if(verificaSenha()){
+					return true;
+				}
 			}
 		}
 		return false;
@@ -45,6 +47,17 @@ public class TrabalhaCadastroUsuario extends Trabalha{
 			return true;
 		}
 		return false;
+	}
+	
+	private boolean verificaSenha(){
+		try{			
+			Digester d = new Digester();
+			usuario.setSenha(d.digesterPasswords(usuario.getSenha()));
+			return true;
+		}catch(Exception e){
+			e.printStackTrace();
+			return false;
+		}
 	}
 	
 	public Usuario getUsuario() {
